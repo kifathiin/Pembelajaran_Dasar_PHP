@@ -266,7 +266,7 @@ function nama() {
 $fungsi = nama();
 echo $fungsi;
 
-git
+
 
 
 
