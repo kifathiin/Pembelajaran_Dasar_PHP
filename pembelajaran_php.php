@@ -12,7 +12,7 @@ echo "<hr>";
 //cara mengenal type data di php
 
 //type data string = character
-$stringv1 = "ini type data string <br>";
+$stringv1 = "ini type data string 1 <br>";
 $stringv2 = 'ini type data string menggunakan petik satu <br>';
 echo $stringv1 . $stringv2;
 
@@ -28,7 +28,7 @@ echo $float;
 
 //type data boolean hanya punya dua value TRUE dan FALSE
 
-$boolean = false;
+$boolean = true;
 echo $boolean;
 
 //dapat dipanggil juga menggunakan var_dump: digunakan untuk mengeluarkan valuennya dan juga type datanya
@@ -252,6 +252,14 @@ echo "hasil dari $angka1 + $angka2 adalah $data ";
 
 echo"<br>";
 
+//function default
+function contoh ($nama = "fathiin"){
+    echo "hello $nama";
+}
+   contoh();
+
+echo "<br>";
+
 //global dan local scope
 
 $global = "fathiin"; //global scope
@@ -266,7 +274,95 @@ function nama() {
 $fungsi = nama();
 echo $fungsi;
 
-git
+echo "<hr>";
+
+//PHP Array
+
+//indexed Array
+$buah = array("apel", "semangka", "mangga");
+echo "$buah[2]";
+
+echo "<br>";
+
+echo "<hr>";
+//Assosiactive Array
+$umur = [
+    "masura" => 15,
+    "bambang" => 20,
+    "paijo" => 30,
+];
+echo $umur["paijo"];
+
+echo "<br>";
+//multidimensional Array
+$santri = [
+    ["masura", "programmer", 19],
+    ["fathiin", "programmer",15],
+    ["luthfi", "multimedia", 19]
+];
+
+echo $santri [0][1];
+echo "<br>";
+echo $santri [1][1];
+echo "<br>";
+echo $santri [2][1];
+echo "<br>";
+
+// update PHP Array == 
+
+//indexed Array
+$buah = array("apel", "semangka", "mangga");
+
+$buah[2] = "anggur";
+echo $buah[2];
+
+unset($buah[0]);
+print_r ($buah);
+
+echo "<br>";
+//Assosiactive Array
+$umur = [
+    "masura" => 15,
+    "bambang" => 20,
+    "paijo" => 30,
+];
+
+$umur["paijo"] = 18;
+echo $umur["paijo"];
+array_splice($umur, 1, 1);
+print_r($umur);
+echo "<br>";
+//multidimensional Array
+$santri = [
+    ["masura", "programmer", 19],
+    ["fathiin", "programmer",15],
+    ["luthfi", "multimedia", 19]
+];
+
+echo "<hr>";
+ 
+echo $santri [0][1] .'&nbsp'. $santri[0][0];
+echo "<br>";
+echo $santri [1][1];
+echo "<br>";
+echo $santri [2][1];
+echo "<br>";
+
+$santri [2][2] = 25;
+echo $santri [2][2]; 
+array_splice($santri, 1, 1);
+print_r($santri);
+ 
+
+
+
+
+
+
+
+
+
+
 
 
 

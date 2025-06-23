@@ -268,6 +268,16 @@ echo $fungsi;
 
 
 
+echo"<hr>";
+
+
+$fat = "fathiin";
+$ren = "rendra";
+
+echo $fat ." ". $ren;
+
+
+
 
 
 

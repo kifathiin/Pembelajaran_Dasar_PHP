@@ -1,6 +1,10 @@
+<?php
+
 jawaban :
 
-9.  $a = 12;
+
+
+  $c = 12;
     $b = 10;
 if ($a < $b){
     echo "angka ini lebih besar";
@@ -10,9 +14,9 @@ if ($a < $b){
     echo "angka ini lebih kecil";
 }
 
-10. for($a = 1; $a <== 20; $a++) {
+# for($a = 1; $a <== 20; $a++) {
     echo "angka ke-$a";
-}
+//
 
 11. $array [
     "jeruk".
@@ -38,3 +42,6 @@ if ($a < $b){
 14. variabel global adalah variabel yang dimana kita langsung bisa meng-output nya,
     sedangkan variabel lokal ialah variabel yang dimana kita harus menggunakan kode 
     tertentu saat ingin meng-output nya
+
+
+    ?>
