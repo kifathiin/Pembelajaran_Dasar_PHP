@@ -18,11 +18,11 @@ if ($a < $b){
     echo "angka ke-$a";
 //
 
-11. $array [
+11.  $array [
     "jeruk".
     "apel".
     "anggur".
-    ]
+];
 
     foreach ($array as $b) {
         echo "ini adalah buah $b";
