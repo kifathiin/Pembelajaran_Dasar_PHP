@@ -1,0 +1,124 @@
+body {
+    background-color: gainsboro;
+}
+
+.container {
+    margin: auto;
+    margin-top: 7rem;
+    background-color: rgb(64,112,244);
+    width: 26rem;
+    height: 27rem;
+    border-radius: 45px;
+    padding-top: 40px;
+    overflow: hidden;
+    box-shadow: 6px 9px 9px rgb(83, 82, 82);
+}
+
+.profile {
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0px 7px 20px rgb(11, 80, 107);
+    position: relative;
+}
+
+.profile .gambar-profile {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.container-content {
+    margin-top: -20px;
+    padding-top: 45px;
+    height: 100%;
+    background-color: white;
+
+}
+
+.porto {
+    text-align: center;
+}
+
+.box {
+    display: block;
+}
+
+.nama {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.job {
+    display: block;
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+.media-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link {
+    font-size:1.8rem;
+    border-radius:60%;
+    margin:7px;
+}
+
+.link i {
+    font-size:1.4rem;
+    color:white;
+    width:2.1rem;
+    text-align:center;
+}
+
+.tombol {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.tombol .border {
+    background-color: aqua;
+    border-radius: 20px;
+    border: 2px rgb(64,112,244);
+    width: 7rem;
+    height: 2rem;
+    margin-left: 15px;
+}
+
+.border .text {
+    color: white;
+    font-size: 14px;
+}
+
+.border:hover {
+    background-color:rgb(64,112,244) ;
+    border: 2px solid rgb(64,112,244);
+    box-shadow: 3px 5px 5px  rgba(0,0,0, .25);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.data {
+    padding: 2px;
+    letter-spacing: 5px;
+    font-size: .8rem;
+}
+
+.garis {
+    border: 1px solid black;
+    height: 3rem;
+    margin: 25px;
+
+
+}
+

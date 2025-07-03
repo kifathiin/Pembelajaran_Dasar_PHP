@@ -1,0 +1,94 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif; 
+    background: aqua;
+}
+
+
+.navbar {
+    position:relative;
+    width: 100%;
+    margin-bottom: 100px;
+    /* border: 2px solid pack; */
+    border-bottom: solid 1px black;
+    background-color: rgb(16, 1, 218);
+    border-radius: 25px;
+    padding: 2px;
+    z-index: 999;
+
+}
+
+.navbar h1 {
+    margin: 15px;
+    font-family:"font1";
+    font-weight: 300px;
+}
+
+.navbar ul {
+    position: absolute;
+    right: 45px;
+    top: 10px;
+}
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+.navbar li a:hover {
+    color: lightblue;
+    border-bottom: 2px solid blue;
+    transition: 5ms;
+
+}
+
+.container{
+    margin-left: 5%;
+    /* border: 2px solid pack; */
+    position: relative;
+}
+
+.content {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.box1{
+    width: 800px;
+    height: auto;
+    /* overflow: auto*/
+    padding: 10px;
+}
+
+.box1 img{
+    width: 180px;
+    float: left;
+    margin: 15px;
+}
+
+.box1 p{
+
+}
+
+.box2 {
+     width: 350px;
+    height: auto;
+    margin-left: 8px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px; 
+}
+
+@font-face {
+    font-family: "font1";
+    src: url(../Fjalla_One.zip) format(truetype);
+}
+
+
+

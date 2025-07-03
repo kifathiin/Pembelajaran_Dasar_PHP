@@ -1,0 +1,207 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgreen;
+    color: white;
+    padding: 30px 50px;
+    z-index: 9999;
+}
+
+.right{
+    display: flex;
+    justify-content: space-around;
+    width: 50rem;
+}
+
+.navbar .right .link li{
+    margin-left: 40px;
+    display:inline-block;
+
+}
+
+.navbar .right .link li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.border-bottom{
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    left: 0;
+    text-align: center;
+    bottom: 0;
+    background-color: rgb(23, 63, 23);
+    transition: .3s;
+}
+
+.navbar .right .link li a:hover{
+    color: rgb(18, 177, 177);
+}
+
+a:hover .border-bottom{
+    width: 100%;
+    height: 2px;
+    background-color: darkcyan;
+}
+
+.navbar .right .button a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+
+.navbar .right .button button{
+    background-color: aqua;
+    border: 2px solid skyblue;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 25px;
+    position: relative;
+}
+
+.navbar .right .button button:hover{
+    top: -4px;
+    box-shadow: 2px 2px 5px darkgray;
+}
+
+.background{
+    height: 100vh;
+    background:linear-gradient(rgba(2, 61, 2, 0)),url(../foto/photo-latihan1.avif) no-repeat center center/cover;
+}
+
+.background .isi-background {
+    position:relative;
+    margin: auto;
+    text-align: center;
+    top: 250px;
+    width: 55rem;
+}
+
+.background .isi-background h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    word-spacing: -5px;
+    line-height: 4rem;
+    text-shadow: 5px 5px 5px black;
+}
+
+.background .isi-background p{
+    color: wheat;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    line-height: 25px;
+}
+
+.tombol button{
+    width: 13rem;
+    height: 3rem;
+    border-radius: 25px;
+    position: relative;
+}
+
+.tombol .button1:hover{
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0px 0px 5px aqua;
+}
+
+.tombol .button1:hover a{
+    color: aqua;
+}
+
+.tombol .button1:active{
+    background-color: rgba(35, 99, 56, 0);
+    box-shadow: 0px 0px 5px aqua;
+    top: -4px;
+}
+ 
+
+/*.tombol button a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+.tombol .button1
+
+.tombol .button1{
+    border: 2px solid black;
+    background-color: aqua;
+    border: 2px aqua;
+    transition: .5s;
+
+
+}
+
+.tombol .button2{
+    border: 2px solid white;
+    background-color: rgba(216, 173, 42, 0);
+} */
+
+.tombol .button2:hover{
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0px 0px 5px rgb(14, 4, 153);
+}
+
+.tombol .button2:hover a{
+    color:  rgb(14, 4, 153);
+}
+
+.tombol .button2:active{
+    background-color: rgba(35, 99, 56, 0);
+    box-shadow: 0px 0px 5px  rgb(14, 4, 153);
+    top: -4px;
+}
+
+
+.content {
+    height: 100vh;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.header {
+    width: 40rem;
+    height: 6rem;
+    text-align: center;
+    margin: auto;
+}
+
+.header h1 {
+    color: blue;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.header p {
+    margin-top: 50px;
+    text-align: 10px;
+    letter-spacing: 1px;
+}
+
+.border-box {
+    margin-top: 80px;
+    display:flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.border-box .box {
+    width: 25rem;
+    height: 17rem;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgba(2, 61, 2, 0);
+}
+
+
+.border-box .box i{
+    font-size: 5rem;
+
+}

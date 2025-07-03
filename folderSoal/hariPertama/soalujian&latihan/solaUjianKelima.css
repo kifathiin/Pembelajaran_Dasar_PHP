@@ -1,0 +1,36 @@
+.kotak {
+      width: 150px;
+      heigh: 150px;
+      background-color: lightblue;
+      float: right;
+    }
+
+    .teks-kecil {
+      display: inline-block;
+      color: red;
+    }
+
+.kotak-atas {
+    width: 100px;
+    height: 100px;
+    color: pink;
+    position: absolute;
+    float: right;
+    z-index: 9;
+}
+
+.wadah-overflow {
+    width: 200px;
+    height: 100px;
+    color: gray;
+    overflow: auto;
+}
+
+.input-from {
+  display: inline-block;
+  position: relative;
+  margin-top: 10px;
+  text-align: center;
+
+}
+

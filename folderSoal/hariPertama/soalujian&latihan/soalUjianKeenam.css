@@ -1,0 +1,50 @@
+.display {
+    color: darkblue;
+    
+}
+
+.button:hover {
+  background-color: green;
+}
+
+.button:active {
+   background-color: red;
+}
+
+.kotak1 {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    overflow: scroll;
+}
+
+span.box1{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    color: red;
+}
+
+span.box2 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    color: yellow;
+}
+
+span.box3 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    color: blue;
+}
+
+.h1{
+    
+}
