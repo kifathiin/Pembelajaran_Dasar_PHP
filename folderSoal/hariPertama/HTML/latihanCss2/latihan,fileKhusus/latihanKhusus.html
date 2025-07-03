@@ -1,70 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <header>
-        <div class="navbar">
-          <div class="logo"><h1>KiFathiin</h1></div>
-          <div class="right">
-            <div class="link">
-             <ul>
-               <li><a href="#">Beranda<span class="=border-bottom"></span></a></li>
-               <li><a href="#">Fitur<span class="=border-bottom"></span></a></li>
-               <li><a href="#">Testimoni<span class="=border-bottom"></span></a></li>
-               <li><a href="#">Harga<span class="=border-bottom"></span></a></li>
-             </ul>
-            </div>
-              <div class="button">
-               <button>
-                   <a href="#">mulai sekarang</a>
-               </button>
-            </div>
-          </div>
+    <!-- style.css via global -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+    />
+
+    <!-- style.css via local -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile">
+        <img
+          src="../image/20250628_212349.jpg"
+          alt="gambar ini sedang error"
+          class="gambar-profile"
+        />
+      </div>
+
+      <div class="container-content">
+        <div class="porto">
+          <span class="nama box">masDanz</span>
+          <span class="job box">Frontend & Backend</span>
         </div>
 
-    </header>
-    <section>
-        <div class="background">
-            <div class="isi-background">
-                <h1>SOLUSI TERBAIK UNTUK BISNIS ANDA</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure doloribus illo rerum ullam excepturi placeat alias vitae, sit harum recusandae?</p>
-                <div class="tombol">
-                    <button><a href="#">coba Gratis</a></button>
-                    <button><a href="#">Pelajari Lebih Lanjut</a></button>
-                </div>
-            </div>
+        <div class="media-button">
+          <a href="#" style="background: #4267b2" class="link"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+
+          <a href="#" style="background: #1da1f2" class="link"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+
+          <a href="#" style="background: #e1306c" class="link"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+
+          <a href="#" style="background: #ff0000" class="link"
+            ><i class="bx bxl-youtube"></i
+          ></a>
         </div>
-    </section>
-    <content>
-        <div class="content">
-            <div class="header">
-                <h1>Fitur Unggulan Kami</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus eaque nihil delectus assumenda?</p>
-            </div>
-            <div class="border-box">
-              <div class="box">
-                 <i>🚀</i>
-                 <h1>Performa Tinggi</h1>
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus eaque nihil delectus assumenda?</p>
-              </div>
-               <div class="box">
-                 <i>🔐</i>
-                 <h1>Keamanan Terjamin</h1>
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus eaque nihil delectus assumenda?</p>
-              </div>
-               <div class="box">
-                 <i>📈</i>
-                 <h1>Analisis Mendalam</h1>
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis  possimus eaque nihil delectus assumenda?</p>
-              </div>
-            </div>
+
+        <div class="tombol">
+          <button
+            type="submit"
+            class="Subscribe border"
+            onclick="alert('Jangan lupa like!')"
+          >
+            <span class="text">Subscribe</span>
+          </button>
+          <button type="submit" class="Message border"><span class="text">Message</span></button>
         </div>
-    </content>
-    
-</body>
+
+        <div class="footer">
+          <div class="data"><i class="bx bx-heart"></i><span class="like">100K</span></div>
+          <div class="data"><span class="garis"></span><i class="bx bx-message-rounded"></i><span class="comment">95K</span></div>
+          <div class="data"><span class="garis"></span><i class="bx bx-share"></i><span class="share">150K</span></div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
