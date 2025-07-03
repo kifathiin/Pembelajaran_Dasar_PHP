@@ -34,8 +34,11 @@
     left: 0;
     text-align: center;
     bottom: 0;
-    background-color: rgb(23, 63, 23);
+    color:aquamarine;
+    background-color: rgb(41, 245, 41);
+    text-shadow: 1px 0px 0px black;
     transition: .3s;
+
 }
 
 .navbar .right .link li a:hover{
@@ -104,6 +107,13 @@ a:hover .border-bottom{
     height: 3rem;
     border-radius: 25px;
     position: relative;
+}
+
+.tombol .button1{
+    color: aqua;
+    color:aquamarine;
+    background-color: rgb(41, 245, 41);
+    text-shadow: 1px 0px 0px black;
 }
 
 .tombol .button1:hover{

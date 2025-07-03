@@ -1,0 +1,136 @@
+:root {
+  --primary: #f8f9fa;
+  --accent: #a2d2ff;
+  --text: #333;
+  --soft-gray: #e0e0e0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--text);
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+header.hero {
+  text-align: center;
+  padding: 5rem 1rem;
+  background: linear-gradient(to bottom, #ffffff, #f0f0f0);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: var(--accent);
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #666;
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+section {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 1rem;
+}
+
+.about p {
+  font-size: 1rem;
+  color: #444;
+}
+
+.projects .project-list {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+.project-card {
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid var(--soft-gray);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.contact {
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: var(--accent);
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #90caff;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+.delay {
+  animation-delay: 0.5s;
+}
+
+.fade-in-up {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+.fade-in-up.delay {
+  animation-delay: 0.5s;
+}
+
+.fade-in-up.delay-2 {
+  animation-delay: 1s;
+}
+
+/* Responsive */
+@media (min-width: 600px) {
+  .projects .project-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .projects .project-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
